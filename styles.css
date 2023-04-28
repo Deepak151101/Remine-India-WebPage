@@ -1,0 +1,227 @@
+/* /* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Header Styles */
+
+header {
+  /* background-color: #232f3e; */
+  background-color: #55ad76;
+  color: #fff;
+  /* padding: 20px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  height: 4rem;
+  padding: 0rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* #company_logo{
+    height: 30px;
+    width: 30px;
+} */
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  /* text-decoration: underline; */
+  /* color: #e5e5f7 */
+  color: #282828;
+}
+
+/* Hero Section Styles */
+
+.hero {
+  padding-top: 8rem;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* color: #fff; */
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.btn {
+  padding: 12px 24px;
+  /* background-color: #0099ff; */
+  /* background-color: #55ad76; */
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  /* background-color: #0077cc; */
+  /* background-color: #55ad76; */
+  color: rgb(255, 255, 255);
+}
+
+/* Services Section Styles */
+
+
+
+.services {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.services ul {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.services li {
+  flex: 1;
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.service-icon {
+  /* background-color: #0099ff; */
+  background-color: #55ad76;
+  color: #fff;
+  font-size: 48px;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.service-icon i {
+  margin-top: 5px;
+}
+
+.services h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.services p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Call to Action Section Styles */
+
+.cta {
+  background-color: #55ad76;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.cta p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  max-width: 600px;
+  line-height: 1;
+  margin: 20px auto;
+}
+
+#allServicesBtn{
+  position: relative;
+  top: 25px;
+}
+
+
+#ContactBtn{
+  font-size: 1.3rem;
+}
+
+.CompanyName {
+  margin: 30px auto;
+}
+
+#CompanyEmail{
+  padding: 10px;
+}
+
+.location{
+  padding: 10px ;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+.fa-brands {
+  padding: 0.5rem 0.5rem;
+  font-size: 2rem;
+}
+
+.socialHandles{
+  text-align: center;
+  margin: 15px 0px;
+}
